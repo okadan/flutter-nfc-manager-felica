@@ -17,7 +17,7 @@ final class FeliCaPlatformAndroid implements FeliCa {
   Uint8List get systemCode => _tech.systemCode;
 
   @override
-  Uint8List get idm => _tech.manufacturer;
+  Uint8List get idm => _tech.tag.id;
 
   @override
   Future<FeliCaPollingResponse> polling({

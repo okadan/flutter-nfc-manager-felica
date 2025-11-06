@@ -1,6 +1,6 @@
 name: nfc_manager_felica
 description: A Flutter package providing a FeliCa abstraction built on top of `nfc_manager`.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/okadan/flutter-nfc-manager-felica
 
 environment:
